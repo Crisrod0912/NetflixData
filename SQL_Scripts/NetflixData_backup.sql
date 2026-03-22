@@ -152,7 +152,7 @@ GO
 -- MÉTRICAS
 -- =============================================
 
--- Métrica de reproducciones por título y regíón.
+-- Métrica de reproducciones por título y región.
 SELECT N.Country, T.title, SUM(H.Reproducciones) AS TotalReproducciones
 FROM dbo.HechosNetflix H
 JOIN dbo.Netflix_Userbase N ON H.UserID = N.UserID
