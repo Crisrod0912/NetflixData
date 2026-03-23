@@ -55,6 +55,7 @@ BEGIN
         appVersion           VARCHAR(50)
     );
 
+    -- Modificación en la tabla Netflix Reviews.
     ALTER TABLE dbo.Netflix_Reviews
     ADD Repetidos INT;
 END
@@ -77,6 +78,7 @@ BEGIN
         description  TEXT
     );
 
+    -- Truncamiento en la tabla Netflix Titles.
     TRUNCATE TABLE dbo.netflix_titles;
 END
 GO
@@ -96,6 +98,7 @@ BEGIN
         PlanDuration     VARCHAR(50)
     );
 
+    -- Modificación en la tabla Netflix Userbase.
     UPDATE dbo.Netflix_Userbase
     SET JoinDate = '2020-07-01', LastPaymentDate = '2020-07-31'
     WHERE JoinDate IS NULL OR JoinDate > '2020-01-01';
@@ -122,6 +125,7 @@ BEGIN
     FOREIGN KEY (AccionesNetflixId) REFERENCES dbo.AccionesNetflix(Id)
     );
 
+    -- Inserción de datos en la tabla Hechos Netflix.
     INSERT INTO dbo.HechosNetflix (Fecha, UserID, show_id, reviewId, DatosBursatilesId, AccionesNetflixId, Reproducciones, TiempoReproducido, IngresoMensual)
     SELECT 
         db.Fecha,                               
