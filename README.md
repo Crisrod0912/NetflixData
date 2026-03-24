@@ -60,7 +60,7 @@ A Data Warehouse solution designed for the storage, integration, and analysis of
 ## 🧠 Data Warehouse Design
 
 - 🧩 **Schema:** 
-    - Star Schema  
+   - Star Schema  
 - 📌 **Fact Tables:**
    - Reviews  
    - User activity  
