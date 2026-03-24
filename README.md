@@ -1,4 +1,4 @@
-# 🎬 NetflixData
+# 🎬 Netflix Data
 
 A Data Warehouse solution designed for the storage, integration, and analysis of large-scale streaming data from Netflix. It centralizes structured information to support business intelligence, trend analysis, and data-driven decision-making.
 
