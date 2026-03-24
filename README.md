@@ -144,7 +144,7 @@ Follow these steps to set up the project:
    - Load .ktr files
    - Execute transformations
 
-📊 **Step 4: Connect Power BI**
+📊 **Step 6: Connect Power BI**
 
    - Connect to SQL Server
    - Load Data Warehouse tables
