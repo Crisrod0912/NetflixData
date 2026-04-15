@@ -159,6 +159,6 @@ Follow these steps to set up the project:
    All datasets are provided in CSV format and integrated into the Data Warehouse.
 
 > [!NOTE]
-> **Project Owner / Developer** 👨👨🏻‍💻  
+> **Project Owner / Developer** 👨🏻‍💻  
 >- Cristopher Rodríguez Fernández 
 ***
